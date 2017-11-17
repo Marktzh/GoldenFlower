@@ -24,7 +24,7 @@ public class Markplayer implements Player {
 
     public void onGameStart(Manager manager, int totalPlayer) {
 
-        
+
     }
 
 
