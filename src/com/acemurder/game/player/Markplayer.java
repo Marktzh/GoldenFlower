@@ -28,18 +28,6 @@ public class Markplayer implements Player {
     }
 
 
-    /**
-     * 下注
-     *
-     * @param time                   第几局
-     * @param round                  每局游戏会有多轮，当前轮数，最多会有5轮
-     * @param lastPerson             还没有弃牌的玩家数
-     * @param moneyOnDesk            桌上的筹码数量
-     * @param moneyYouNeedToPayLeast 你本次最小需要下注的数量，
-     * @param pokers                 你的手牌，三张
-     * @return 你的下注数量，小于这个最小下注数量或者大于最小下注数量的三倍，都会被当作弃牌处理。
-     */
-
     @Override
     public int bet(int time, int round, int lastPerson, int moneyOnDesk, int moneyYouNeedToPayLeast, List<Poker> pokers) {
         Collections.sort(pokers);
