@@ -50,6 +50,7 @@ public class Markplayer implements Player {
         for (Poker p : pokers) {
             if (p.getPoint().getNum() >= 14)
                 return moneyYouNeedToPayLeast;
+
         }
         return 0;
     }
